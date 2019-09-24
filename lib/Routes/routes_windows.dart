@@ -54,6 +54,7 @@ class NavigatorDemo1 extends StatelessWidget {
 
 ///跳转目标页面
 class NavigatorDemo2 extends StatelessWidget {
+
   String title;
 
   NavigatorDemo2({Key key, this.title}) : super(key: key);

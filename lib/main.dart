@@ -36,7 +36,7 @@ class MyApp extends StatelessWidget {
                 //设置拖尾将在列表的末尾放置一个图像
                 trailing: Icon(Icons.keyboard_arrow_right),
                 onTap: () {
-                  print("点击");
+                  print("点击"+index.toString()+"  "+Windows[index].title);
                   Navigator.push(context,
                       MaterialPageRoute(builder: (context) => Windows[index]));
                 });
