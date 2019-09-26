@@ -19,6 +19,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  #上箭头：表示可以使用小版本的更新
+  scoped_model: ^0.3.0
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
